@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:id="@+id/toast_button"
+         android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/tv"
+        android:gravity="center"
+        android:textSize="100dp"
+        />
+    <Button
+        android:id="@+id/count_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count"/>
+</LinearLayout>
+

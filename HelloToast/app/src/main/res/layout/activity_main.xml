@@ -3,26 +3,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:text="Toast"
+        android:background="#1633D5"
+        android:textColor="#fff"
+
         android:id="@+id/toast_button"
          android:textAllCaps="false"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="8"
         android:text="0"
         android:id="@+id/tv"
+        android:background="#E1CB0E"
         android:gravity="center"
         android:textSize="100dp"
         />
     <Button
         android:id="@+id/count_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#3F51B5"
+        android:textColor="#fff"
         android:text="Count"/>
 </LinearLayout>
 

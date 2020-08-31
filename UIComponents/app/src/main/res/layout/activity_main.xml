@@ -40,4 +40,20 @@
     android:layout_gravity="center"
     android:textColor="@color/colorPrimary"
     />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/iv"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_android_black_24dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ib"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_check_black_24dp"/>
+
+
+
 </LinearLayout>

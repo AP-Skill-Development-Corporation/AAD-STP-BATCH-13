@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher"
+    android:id="@+id/plays"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:onClick="startService"
+    android:background="@mipmap/play"
+    android:id="@+id/play"/>
+    <Button
+        android:onClick="stopService"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@mipmap/stop"
+        android:id="@+id/stop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ruslan_display"
+        android:text="Welcome"
+        android:textSize="30sp" />
+<EditText
+    android:padding="10dp"
+    android:drawablePadding="20dp"
+    android:backgroundTint="@color/orange"
+    android:drawableLeft="@drawable/ic_action_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter the text"/>
+    <EditText
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the text"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/orange"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Enter the text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:text="Welcome"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

@@ -268,3 +268,59 @@ LayoutManager:It will Control the all layouts
 		3.StraggedGrilayoutmangar
 Adapter:It provide the enviroment or platform 
 ViewHolder:it will holdview and also unhold the view
+
+----------------Good Evening to All --------
+All of you open the android studio
+Today Objective
+----Retrofit configuration-----
+API->Application Programing Interface 
+	->it is a set of rules that allow program to talk to each other 
+	->Who creates API?
+		Developer can create the API
+	->where we use this APIs
+		ex:covid19 API,Google books api..etc
+		https://api.covid19api.com/dayone/country/IN
+REST API->Reprasentational State Transfer:
+	one of these rules states that you should be able to get piece of data(Called a reuse )
+	https://api.covid19api.com/dayone/country/IN
+	https://api.covid19api.com/dayone/country/US
+	https://api.covid19api.com/dayone/country/UK
+JSON->Java Script Object Notation
+	Here :Data is prsent in the form of Objects and Array
+	Data can access easily
+	In every object or array contains the Data in the form of KEY and VALUE paire
+POJO Class->plan old Java objects :
+	by using this pojo class we can set and get the data
+
+URL->Unifrom Resourse Locator 
+URI->Unifrom Resourse Identifier
+HTTP->
+Retrofit--->
+A type-safe HTTP client for Android and Java
+------Good Morning to all-------
+mean while all of you open the android studio 
+madam will come wait 5m
+madam have new gotomeeting login issue
+later we will verify
+
+=====Good Evening to all=====
+		Day 15 
+
+All of you open the Android studio
+ and creat new Project name :RoomDB
+ --------Today Objective------------
+ 		Room Database
+CURD Opartions -
+SQLITE -Defaults Db
+	it does not store the huge amount of data
+APK->
+two types of the storage mechanshims:
+Internal storage :
+	SQLITE:2014 -2020 
+	RoomDatabase-->
+	SharedPrefarence->
+External storage:
+	Server
+		Firebase,Mysql,..etc
+
+

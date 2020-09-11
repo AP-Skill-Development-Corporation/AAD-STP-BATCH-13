@@ -14,3 +14,4 @@
 ## [Day -15 (8-09-2020)] https://transcripts.gotomeeting.com/#/s/02ea45e9e441d39e1e5468e7b0cf2f23f501778369fba2e8b4862ed4193a4715
 ## [Day -16 (9-09-2020)] https://transcripts.gotomeeting.com/#/s/59bb28d02962f6d36d671f925ec9d6469d16af89ff79bbe25d8effb4a7bc8fb9
 ## [Day -17 (10-09-2020)] https://transcripts.gotomeeting.com/#/s/0244e9a93d365f3e2c0bb63988ef546f0671c2ef968c86dabc088f854eb58b15
+## [Day -18 (11-09-2020)] https://transcripts.gotomeeting.com/#/s/06e3951b8bfa126be0cf7dacee1448ac7bbee8a83552c89b5d64082bf0547ec1
